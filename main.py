@@ -2,7 +2,7 @@ import telebot
 import database
 import parsing
 
-bot = telebot.TeleBot("7173651040:AAFStDBOIUNdGPkQ1TpxoAw35drV-Wqtu9g", parse_mode=None)
+bot = telebot.TeleBot("paste your tg_key", parse_mode=None)
 database.create_user_bd()
 
 @bot.message_handler(commands=['start'])
